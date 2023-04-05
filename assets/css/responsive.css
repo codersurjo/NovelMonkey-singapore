@@ -81,6 +81,29 @@
     .footer_area_design {
         padding: 45px 0;
     }
+    .feature_position_img {
+        display: none;
+    }
+    .about_banner {
+        padding: 75px 0;
+    }
+    .ai_sin {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ai_sin.ai_fe_des.li_p {
+        margin-top: 38px;
+    }
+    .p_use .ai_sin {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .middle_line {
+        display: none;
+    }
+    .ai_single_feature1 h6{
+        display: none;
+    }
 }
 
 @media all and (min-width:768px){
@@ -247,6 +270,21 @@
     .header_menu ul li:last-child{
         display: block;
     }
+    .b_all_content h2 {
+        font-size: 45px;
+        line-height: 42px;
+    }
+    .b_all_content h2 {
+        font-size: 39px;
+        line-height: 38px;
+    }
+    .b_all_content p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .ai_single_feature, .ai_single_feature1 {
+        margin-bottom: 50px;
+    }
 }
 
 @media all and (max-width:575px){
@@ -276,7 +314,6 @@
     .section_title h2 {
         font-size: 28px;
         line-height: 27px;
-        max-width: 295px;
         margin: 0 auto;
     }
     .about_group {
@@ -323,5 +360,32 @@
     }
     .current_single:last-child {
         flex: 0 0 100%;
+    }
+    .fl_left {
+        padding: 22px 10px;
+        flex: 0 0 100%;
+    }
+    .team_meet {
+        margin-bottom: 0;
+    }
+    .b_all_content h2 {
+        font-size: 34px;
+        line-height: 33px;
+        margin: 20px 0;
+    }
+    .b_all_content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .b_all_content span {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .about_banner {
+        padding: 60px 0;
+    }
+    .ai_sin.ai_fe_des.li_p h3 {
+        font-size: 23px;
+        line-height: 23px;
     }
 }

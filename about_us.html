@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- normalize -->
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- Aos css  -->
+    <link rel="stylesheet" href="assets/css/aos.css">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- responsive -->
@@ -47,8 +49,8 @@
                             <div class="header_menu">
                                 <ul>
                                     <li><a class="active" href="#">Home</a></li>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="feature.html">Features</a></li>
+                                    <li><a class="active" href="about_us.html">About Us</a></li>
                                     <li><a href="#">Get Started</a></li>
                                 </ul>
                             </div>
@@ -67,107 +69,33 @@
         </div>
     </header>
 
-    <section class="about_banner">
+    <section class="about_banner" style="background: url(assets/images/about_bg.png) no-repeat scroll 0 0 / 100% 100%;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="b_all_content">
-                        <span>About Novelmoneky ai lab</span>
-                        <h2>We combine the power of AI and the creativity of human beings to 
+                        <span data-aos="fade-up">About Novelmoneky ai lab</span>
+                        <h2 data-aos="fade-up">We combine the power of AI and the creativity of human beings to 
                         take content creation to.</h2>
-                        <p>ReScript cares about a consistent and fast feedback loop for any codebase size. Refactor code, pull complex changes, or switch to feature branches as you please. No sluggish CI builds, stale caches, wrong type hints, or memory hungry language servers that slow you down.</p>
+                        <p data-aos="fade-up">ReScript cares about a consistent and fast feedback loop for any codebase size. Refactor code, pull complex changes, or switch to feature branches as you please. No sluggish CI builds, stale caches, wrong type hints, or memory hungry language servers that slow you down.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="who_are_we_area section_padding">
+    <section class="why_do_that_area ab_why_do_that_area section_padding">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title">
-                        <h2>Who are we?</h2>
-                    </div>
-                    <div class="who_are_you_con">
-                        <img src="assets/images/img1.png" alt="Image">
-                        <button type="button" class="btn-play btn-play1" data-toggle="modal"
-                            data-src="https://www.youtube.com/embed/h7M7f-afhvY" data-target="#videoModal">
-                            <span></span>
-                        </button>
-
-                        <!-- Video Modal Start -->
-                        <div class="modal modal-video fade" id="videoModal" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content rounded-0">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-dismiss="modal"
-                                            aria-label="Close">&times;</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="" id="video"
-                                                allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Video Modal End -->
-
-
-                        <!-- about us  -->
-                        <div class="about_us_con">
-                            <h5>About Us</h5>
-                            <h2>The Best AI Generated Content Platform</h2>
-                            <p>Our experience in both AI technology and content creating allows us to bring best AIGC
-                                directly to our consumers.</p>
-
-                            <div class="about_group">
-                                <div class="ab_single li_p">
-                                    <div class="ab_logo">
-                                        <img src="assets/images/l1.png" alt="">
-                                    </div>
-                                    <p>AI Novels: Fictio</p>
-                                    <p><span>Text-to-text</span></p>
-                                </div>
-                                <div class="ab_single li_p">
-                                    <div class="ab_logo">
-                                        <img src="assets/images/l2.png" alt="">
-                                    </div>
-                                    <p>AI Audiobooks: Anytime Player</p>
-                                    <p><span>Text-to-audio</span></p>
-                                </div>
-                                <div class="ab_single li_p">
-                                    <div class="ab_logo">
-                                        <img src="assets/images/l3.png" alt="">
-                                    </div>
-                                    <p>AI Interactive Stories: </p>
-                                    <p><span>Text-to-video</span></p>
-                                </div>
-                            </div>
-
-                            <a href="#">More About Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="why_do_that_area section_padding_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title">
-                        <h2>What we do & Why we do that</h2>
+                        <h2 data-aos="fade-up">What we do & Why we do that</h2>
                     </div>
                 </div>
             </div>
             <div class="row what_items">
                 <div class="col-md-4">
-                    <div class="single_w_item li_p">
+                    <div class="single_w_item li_p" data-aos="fade-up">
                         <div class="icon">
                             <img src="assets/images/icon1.png" alt="">
                         </div>
@@ -177,7 +105,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="single_w_item li_p">
+                    <div class="single_w_item li_p" data-aos="fade-up">
                         <div class="icon">
                             <img src="assets/images/icon2.png" alt="">
                         </div>
@@ -187,7 +115,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="single_w_item li_p">
+                    <div class="single_w_item li_p" data-aos="fade-up">
                         <div class="icon">
                             <img src="assets/images/icon3.png" alt="">
                         </div>
@@ -199,188 +127,59 @@
             </div>
             <div class="row fluent_content">
                 <div class="col-xl-12">
-                    <div class="fluent_div">
+                    <div class="fluent_div ab_fluent_div">
                         <div class="fl_left">
-                            <h2>Generate <span>killer</span> content, effortlessly</h2>
-                            <p>Never face writer's block again — from blogs to emails to ad copies, auto-generate
+                            <h2 data-aos="fade-up">Generate <span>killer</span> content, effortlessly</h2>
+                            <p data-aos="fade-up">Never face writer's block again — from blogs to emails to ad copies, auto-generate
                                 catchy, original, and high-converting copies in popular tones & languages in just a few
                                 seconds. Just pick a use case, enter some context, and boom...your copy is ready!</p>
 
                             <div class="botom_f_con">
-                                <ul class="li_p">
+                                <ul class="li_p" data-aos="fade-up">
                                     <li>Powered by state-of-the-art <span>language AI</span> to generate unique,
                                         original content for almost any vertical</li>
-                                    <li><span>40+ use cases</span> and templates to choose from to cover all your
+                                    <li data-aos="fade-up"><span>40+ use cases</span> and templates to choose from to cover all your
                                         writing needs</li>
                                     <li>Choose from <span>30+ languages</span> to write in your own or other languages
                                         for your clients</li>
-                                    <li>Write anything with the right emotion through <span>20+ tones</span> of voice
+                                    <li data-aos="fade-up">Write anything with the right emotion through <span>20+ tones</span> of voice
                                     </li>
-                                    <li>Uses scientific <span>copywriting formulas</span> — such as AIDA & PAS — to
+                                    <li data-aos="fade-up">Uses scientific <span>copywriting formulas</span> — such as AIDA & PAS — to
                                         provide best quality output that requires minimal to no editing</li>
                                 </ul>
 
-                                <div class="img_div">
+                                <div class="img_div" data-aos="fade-up">
                                     <img src="assets/images/ai1.png" alt="">
                                 </div>
                             </div>
                         </div>
-
-                        <div class="fl_right">
-                            <img src="assets/images/man1.png" alt="">
-                            <button type="button" class="btn-play btn-play2" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/668nUCeBHyY" data-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
                     </div>
 
-                    <div class="fluent_div">
+                    <div class="fluent_div ab_fluent_div">
                         <div class="fl_left">
-                            <h2>Craft your <span>masterpiece</span> to perfection</h2>
-                            <p>Use powerful, rich-text editor to go from raw ideas to a polished piece in no time —
+                            <h2 data-aos="fade-up">Craft your <span>masterpiece</span> to perfection</h2>
+                            <p data-aos="fade-up">Use powerful, rich-text editor to go from raw ideas to a polished piece in no time —
                                 takes just about 15 mins to write a 1,000 word piece! Reword, shorten and do much more
                                 to improve the content quality before hitting that submit button.</p>
 
                             <div class="botom_f_con">
                                 <ul class="li_p">
-                                    <li>Produce reader-friendly copy the way you need it — <span>expand</span> with more
+                                    <li data-aos="fade-up">Produce reader-friendly copy the way you need it — <span>expand</span> with more
                                         details, give it that raw edge, or just clean up the <span>grammar</span></li>
-                                    <li>Have a problem with that clunky, boring sentence? Hit <span>'reword'</span> or
+                                    <li data-aos="fade-up">Have a problem with that clunky, boring sentence? Hit <span>'reword'</span> or
                                         <span>'shorten'</span> and watch it magically turn into something elegant and
                                         succinct</li>
-                                    <li>Never worry about content uniqueness! Check for parts of your text that are
+                                    <li data-aos="fade-up">Never worry about content uniqueness! Check for parts of your text that are
                                         similar to any existing content using in-built <span>plagiarism</span> checker
                                     </li>
-                                    <li>Extensive <span>formatting options</span> to make text richer and presentable to
+                                    <li data-aos="fade-up">Extensive <span>formatting options</span> to make text richer and presentable to
                                         the world</li>
                                 </ul>
 
-                                <div class="img_div">
+                                <div class="img_div" data-aos="fade-up">
                                     <img src="assets/images/ai2.png" alt="">
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="fl_right">
-                            <img src="assets/images/man2.png" alt="">
-                            <button type="button" class="btn-play btn-play2" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/668nUCeBHyY" data-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="love_reader_section section_padding_bottom">
-        <div class="container">
-            <div class="col-xl-12">
-                <div class="section_title">
-                    <h2>Loved by our readers</h2>
-                    <h5>Reviews from our AI Novel App</h5>
-                </div>
-            </div>
-
-            <div class="col-xl-12">
-                <div class="all_read_lover">
-                    <!-- single  -->
-                    <div class="single_read_lover">
-                        <div class="lover_top">
-                            <div class="lover_img">
-                                <img src="assets/images/1.png" alt="">
-                            </div>
-                            <div class="lover_name">
-                                <h6>DIANDA Ramata</h6>
-                            </div>
-                        </div>
-                        <div class="lover_comment">
-                            <h5>Sûrement de belles histoires.</h5>
-                            <p>J'adore 💓💓💓💓💓💓💓💓💓💓💓. J'aime beaucoup les lectures même si certaines ne sont
-                                pas fini.</p>
-                        </div>
-                    </div>
-                    <!-- single  -->
-                    <div class="single_read_lover">
-                        <div class="lover_top">
-                            <div class="lover_img">
-                                <img src="assets/images/2.png" alt="">
-                            </div>
-                            <div class="lover_name">
-                                <h6>Marzena Kóska</h6>
-                            </div>
-                        </div>
-                        <div class="lover_comment">
-                            <h5>Super.Polecam</h5>
-                            <p>Super się czyta wciąga niesamowicie nie można się oderwać. Aplikacje mi się podoba.Maja
-                                bardzo duży wybór książek tak że każdy znajdzie coś dla siebie.Polecam😘</p>
-                        </div>
-                    </div>
-                    <!-- single  -->
-                    <div class="single_read_lover">
-                        <div class="lover_top">
-                            <div class="lover_img">
-                                <img src="assets/images/3.png" alt="">
-                            </div>
-                            <div class="lover_name">
-                                <h6>Domenica Carlino</h6>
-                            </div>
-                        </div>
-                        <div class="lover_comment">
-                            <h5>App molto bella</h5>
-                            <p>Bellissimo tantissime storie avvincenti molto soddisfatta grazie!</p>
-                        </div>
-                    </div>
-                    <!-- single  -->
-                    <div class="single_read_lover">
-                        <div class="lover_top">
-                            <div class="lover_img">
-                                <img src="assets/images/4.png" alt="">
-                            </div>
-                            <div class="lover_name">
-                                <h6>Arcangela Moschetta</h6>
-                            </div>
-                        </div>
-                        <div class="lover_comment">
-                            <h5>App di lettura interessante</h5>
-                            <p>L'ho scaricata da poco e mi trovo bene. App di lettura interessante, unica cosa da
-                                migliorare è la concessione di maggiori gemme per ogni missione di lettura giornaliera.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- single  -->
-                    <div class="single_read_lover">
-                        <div class="lover_top">
-                            <div class="lover_img">
-                                <img src="assets/images/5.png" alt="">
-                            </div>
-                            <div class="lover_name">
-                                <h6>Kaszti007 Cobra90</h6>
-                            </div>
-                        </div>
-                        <div class="lover_comment">
-                            <h5>Sehr spannend, cool</h5>
-                            <p>Dość ciekawa aplikacja , można również pomagać i mieć swój udział w tłumaczeniu tekstu ,
-                                gdy widzimy jakiś błąd możemy edytować tekst i go samodzielnie poprawić, dostając w
-                                zamian monety.🙂</p>
-                        </div>
-                    </div>
-                    <!-- single  -->
-                    <div class="single_read_lover">
-                        <div class="lover_top">
-                            <div class="lover_img">
-                                <img src="assets/images/6.png" alt="">
-                            </div>
-                            <div class="lover_name">
-                                <h6>Matej Vanny</h6>
-                            </div>
-                        </div>
-                        <div class="lover_comment">
-                            <h5>Tolle App mit spannenden Geschichten</h5>
-                            <p>Ansich eine klasse App mit tollen Geschichten, Man lernt nette Leute kennen Liest
-                                entspannt Bücher.</p>
                         </div>
                     </div>
                 </div>
@@ -391,14 +190,13 @@
     <section class="our_team section_padding_bottom">
         <div class="container">
             <div class="row">
-
                 <div class="col-xl-12">
                     <div class="section_title">
-                        <h2>Meet Our Team</h2>
+                        <h2 data-aos="fade-up">Meet Our Team</h2>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
                         <img class="img-fluid mb-4" src="assets/images/team-1.png" alt="">
                         <h5>Charles Tai</h5>
                         <span class="text-primary">Founder & CEO</span>
@@ -410,8 +208,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
                         <img class="img-fluid mb-4" src="assets/images/team-2.png" alt="">
                         <h5>Adam Crew</h5>
                         <span class="text-primary">Co Founder</span>
@@ -423,8 +221,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
                         <img class="img-fluid mb-4" src="assets/images/team-3.png" alt="">
                         <h5>Boris Johnson</h5>
                         <span class="text-primary">Executive Manager</span>
@@ -436,8 +234,60 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
+                        <img class="img-fluid mb-4" src="assets/images/team-4.png" alt="">
+                        <h5>Robert Jordan</h5>
+                        <span class="text-primary">Digital Marketer</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
+                        <img class="img-fluid mb-4" src="assets/images/team-1.png" alt="">
+                        <h5>Charles Tai</h5>
+                        <span class="text-primary">Founder & CEO</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
+                        <img class="img-fluid mb-4" src="assets/images/team-2.png" alt="">
+                        <h5>Adam Crew</h5>
+                        <span class="text-primary">Co Founder</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
+                        <img class="img-fluid mb-4" src="assets/images/team-3.png" alt="">
+                        <h5>Boris Johnson</h5>
+                        <span class="text-primary">Executive Manager</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 team_meet">
+                    <div class="team-item" data-aos="fade-up">
                         <img class="img-fluid mb-4" src="assets/images/team-4.png" alt="">
                         <h5>Robert Jordan</h5>
                         <span class="text-primary">Digital Marketer</span>
@@ -453,68 +303,6 @@
         </div>
     </section>
 
-    <section class="help_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="help_title">
-                        <h2>Help revolutionize the way people write
-                            Join us on our journey!</h2>
-                            <div class="current_open">
-                                <h6>Current Openings</h6>
-                            </div>
-                        
-                    </div>
-                </div>
-
-                <div class="col-xl-12">
-                    <div class="current_all_items">
-                        <div class="current_single">
-                            <div class="c_img">
-                                <img src="assets/images/h.png" alt="">
-                            </div>
-                            <h3>Machine Learning Engineer (NLP)</h3>
-                            <p>We are looking for a talented and passionate Machine Learning Engineer to join our
-                                founding team and shape the future of our product. You will be responsibl...</p>
-                            <div class="more">
-                                <span>Remote/ Full time</span>
-                                <a href="#">&#8594 </a>
-                            </div>
-                        </div>
-                        <div class="current_single">
-                            <div class="c_img">
-                                <img src="assets/images/h.png" alt="">
-                            </div>
-                            <h3>Machine Learning Engineer (NLP)</h3>
-                            <p>We are looking for a talented and passionate Machine Learning Engineer to join our
-                                founding team and shape the future of our product. You will be responsibl...</p>
-                            <div class="more">
-                                <span>Remote/ Full time</span>
-                                <a href="#">&#8594 </a>
-                            </div>
-                        </div>
-                        <div class="current_single">
-                            <div class="c_img">
-                                <img src="assets/images/h.png" alt="">
-                            </div>
-                            <h3>Machine Learning Engineer (NLP)</h3>
-                            <p>We are looking for a talented and passionate Machine Learning Engineer to join our
-                                founding team and shape the future of our product. You will be responsibl...</p>
-                            <div class="more">
-                                <span>Remote/ Full time</span>
-                                <a href="#">&#8594 </a>
-                            </div>
-                        </div>
-                        <div class="current_single">
-                           <div class="position">
-                                <a href="#">More Positions</a>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <footer class="footer_area_design">
@@ -578,8 +366,18 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Owl Carousel JS -->
     <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Aos js  -->
+    <script src="assets/js/aos.js"></script>
     <!-- Custom Scripts -->
     <script src="assets/js/main.js"></script>
+    <script>
+        AOS.init({
+          // offset: 200,
+          // duration: 1000,
+          delay: 80,
+          once: true
+        });
+    </script>
 
 </body>
 
