@@ -1,0 +1,327 @@
+@media all and (max-width:991px){
+    h1 {
+        font-size: 50px;
+        line-height: 54px;
+    }
+    .details_counting {
+        justify-content: space-between;
+    }
+    .single_details {
+        flex: 0 0 31%;
+    }
+    .code_editor_area {
+        margin-top: 68px;
+    }
+    .section_padding {
+        padding: 80px 0;
+    }
+    .fl_left {
+        padding: 40px;
+        flex: 0 0 100%;
+    }
+    .fluent_div {
+        margin-top: 80px;
+        flex-wrap:wrap ;
+        border-radius: 29px;
+    }
+    .fl_right {
+        position: relative;
+        flex: 0 0 100%;
+        border-radius: 29px;
+        overflow: hidden;
+    }
+    .btn-play.btn-play2 {
+        position: absolute;
+        top: 45%;
+        left: 43%;
+    }
+    .section_padding_bottom {
+        padding-bottom: 80px;
+    }
+    .section_title h2 {
+        font-size: 35px;
+        line-height: 34px;
+    }
+    .help_title h2 {
+        font-size: 36px;
+        line-height: 37px;
+    }
+    .current_single {
+        background: #14162C;
+        border-radius: 16px;
+        padding: 20px;
+        flex: 0 0 49%;
+        margin-bottom: 20px;
+    }
+    .current_single:last-child{
+
+        flex: 0 0 49%;
+    }
+    .current_all_items {
+        flex-wrap: wrap;
+    }
+    .footer_all_item {
+        display: block;
+        text-align: center;
+    }
+    .footer_logo a {
+        font-size: 24px;
+        line-height: 24px;
+        display: flex;
+        justify-content: center;
+        color: #FF4A53;
+        margin-bottom: 13px;
+    }
+    .footer_menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 42px;
+    }
+    .footer_area_design {
+        padding: 45px 0;
+    }
+}
+
+@media all and (min-width:768px){
+    .header_menu {
+        display: block !important;
+    }
+}
+@media all and (max-width:767px){
+    h1 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .hero_content p {
+        padding: 7px 0;
+        padding-bottom: 16px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .about_us_con {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        background: #FFF;
+        bottom: 0;
+        right: 0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 8px 8px 0px 0px;
+    }
+    .btn-play1 {
+        top: 18%;
+        left: 40%;
+    }
+    .who_are_you_con {
+        height: auto;
+        padding: 12px;
+    }
+    .about_us_con h2 {
+        font-size: 27px;
+        line-height: 30px;
+        color: #232538;
+        padding: 14px 0;
+    }
+    .about_us_con a {
+        width: 200px;
+        height: 53px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .section_title h2 {
+        font-size: 29px;
+        line-height: 27px;
+    }
+    .section_title {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    .fl_left {
+        padding: 22px;
+        flex: 0 0 100%;
+    }
+    .fl_left h2 {
+        font-size: 33px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .botom_f_con {
+        margin-top: 23px;
+        flex-direction: column-reverse;
+    }
+    .img_div {
+        margin-bottom: 30px;
+    }
+    .single_read_lover {
+        padding: 12px;
+        margin-bottom: 18px;
+        flex: 0 0 100%;
+    }
+    .lover_comment h5 {
+        margin-bottom: 2px;
+    }
+    .lover_top {
+        margin-bottom: 8px;
+    }
+    .section_padding_bottom {
+        padding-bottom: 50px;
+    }
+    .team-item img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+    .team-item {
+        margin-bottom: 20px;
+    }
+    .mb-4{
+        margin-bottom: 0 !important;
+    }
+    .team-item h5 {
+        margin-top: 15px;
+    }
+    .team-item span {
+        margin-bottom: 15px;
+    }
+    .help_title h2 {
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .help_section {
+        background: #0B0D22;
+        padding: 60px 0;
+        padding-bottom: 50px;
+    }
+    .single_w_item.li_p {
+        margin-bottom: 27px;
+    }
+    .header_logo a {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .mobile_btn{
+        display: block;
+    }
+    .header_menu {
+        position: absolute;
+        background: #14162c;
+        width: 100%;
+    }
+    .header_menu ul {
+        display: block;
+        align-items: center;
+        margin-left: 0;
+        padding: 15px;
+    }
+    .header_menu ul li {
+        margin-left: 0;
+    }
+    .header_menu ul li a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        color: #979AAD;
+        transition: 0.2s;
+        display: block;
+        text-align: center;
+        padding: 8px;
+    }
+    .header_menu {
+        position: absolute;
+        background: #14162c;
+        width: 100%;
+        top: 46px;
+        z-index: 99;
+        left: 0;
+        display: none;
+    }
+    .header_right a {
+        display: none;
+    }
+    .header_menu ul li:last-child{
+        display: block;
+    }
+}
+
+@media all and (max-width:575px){
+    h1 {
+        font-size: 34px;
+        line-height: 35px;
+    }
+    .single_details {
+        flex: 0 0 100%;
+        max-width:100% ;
+    }
+    .details_counting {
+        flex-wrap: wrap;
+    }
+    .single_details p {
+        max-width: 298.67px;
+        width: 100%;
+        margin-top: 8px;
+        margin: 0 auto;
+    }
+    .single_details.li_p {
+        margin-bottom: 26px;
+    }
+    .section_padding {
+        padding: 71px 0;
+    }
+    .section_title h2 {
+        font-size: 28px;
+        line-height: 27px;
+        max-width: 295px;
+        margin: 0 auto;
+    }
+    .about_group {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+        flex-wrap: wrap;
+    }
+    .ab_single {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .about_us_con a {
+        margin: 0 auto;
+    }
+    .btn-play1 {
+        top: 9%;
+        left: 40%;
+    }
+    .single_w_item h3 {
+
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 12px;
+    }
+    .current_single {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .section_title h5 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 21px;
+        text-align: center;
+        color: #696B7D;
+        margin: 8px 0;
+    }
+    .help_title h2 {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+    .current_single:last-child {
+        flex: 0 0 100%;
+    }
+}
